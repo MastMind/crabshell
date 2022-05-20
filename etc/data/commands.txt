@@ -1,0 +1,16 @@
+show interfaces  /etc/crabshell/scripts/interface/show.sh
+show bridges  /etc/crabshell/scripts/interface/bridge_show.sh
+create bridge "string"  /etc/crabshell/scripts/interface/bridge_create.sh
+delete bridge "string"  /etc/crabshell/scripts/interface/bridge_delete.sh
+interface "string" add "string"  /etc/crabshell/scripts/interface/bridge_add.sh
+interface "string" del "string"  /etc/crabshell/scripts/interface/bridge_remove.sh
+interface "string" set "string"  /etc/crabshell/scripts/interface/state.sh
+interface "string" ip "ip" mask "ip"  /etc/crabshell/scripts/interface/setip.sh
+interface "string" ip "ip" mask "num"  /etc/crabshell/scripts/interface/setip.sh
+interface "string" dhcp  /etc/crabshell/scripts/interface/getip.sh
+interface "string" mac "string"  /etc/crabshell/scripts/interface/setmac.sh
+interface "string" mac random  /etc/crabshell/scripts/interface/randommac.sh
+reboot  /etc/crabshell/scripts/reboot.sh
+poweroff  /etc/crabshell/scripts/shutdown.sh
+shutdown  /etc/crabshell/scripts/shutdown.sh
+show system log  /etc/crabshell/scripts/log/showsystem.sh
